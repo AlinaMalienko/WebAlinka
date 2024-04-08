@@ -87,3 +87,10 @@ img {
 .makeup-txt{
     width: 1000px;
 }
+
+ul {
+    padding: 0;
+}
+ul ul {
+    margin-left: 20px; /* Відступ для підпунктів */
+}

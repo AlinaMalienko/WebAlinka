@@ -56,3 +56,25 @@ img {
     font-size: 20px;
 
 }
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+    color: #fff;
+}
+
+tr{
+    background-color: #401552;
+}
+
+.xxxx{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
