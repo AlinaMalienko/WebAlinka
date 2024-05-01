@@ -1,0 +1,129 @@
+body{
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #ffdfff;
+    color: #fff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bgbg{
+    background-image: url(krasivo-2.jpg);
+    height: 100vh;
+    padding-top: 20px;
+
+}
+
+nav{
+    margin-top: 16px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+nav li:first-child {
+    margin-left: 0;
+}
+
+
+.back{
+    margin: 20px 20px;
+    background-color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 10px;
+    border: #000 2px solid;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+}
+
+.back:hover{
+    background-color: #3d008d;
+    color: #fff
+}
+
+
+
+.reg-bg{
+    border: #000 solid 5px;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 800px;
+    background-color: #cf51c9;
+}
+
+.forma{
+    margin: 30px 60px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h5{
+    font-size: 16px;
+}
+
+.reg-title{
+    padding-top: 60px; 
+    text-align: center;
+}
+
+.reg-txt{
+    font-size: 36px;
+    text-decoration: none;
+    color: #fff; 
+    font-weight: bold;
+}
+
+.xxx{
+    margin-bottom: 8px;
+    flex-direction: column;
+    column-count: 2;
+    column-gap: -5px;
+}
+
+.box{
+    width: 200px;
+    padding: 5px;
+    margin-left: 118px;
+}
+
+button{
+    font-family: "El Messiri", sans-serif;
+    font-size: 20px;
+    width: 680px;
+    background-color: #EA4C89;
+    border-radius: 8px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    height: 40px;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);;
+}
+
+  button:hover,
+  button:focus {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+  }
+
+  button:active {
+  box-shadow: none;
+  transform: translateY(0);
+  }

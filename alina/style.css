@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    font-family: "El Messiri", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #ffdfff;
+
+}
+
+nav{
+    margin-top: 16px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+.con{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+img{
+    width: 700px;
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.under-h1{
+    text-align: center;
+    align-items: center;
+
+}
+
+h2 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+h4{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.txt{
+    margin-left: 60px;
+
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 700px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 52px;
+    margin-right: 30px;
+}
+
+.makeup-txt{
+    width: 1000px;
+}
+
+ul {
+    padding: 0;
+}
+ul ul {
+    margin-left: 20px; /* Відступ для підпунктів */
+}
