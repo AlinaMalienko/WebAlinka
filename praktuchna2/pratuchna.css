@@ -17,6 +17,7 @@ header{
     text-align: center;
     background-image: url(bgnd.png);
     height: 100vh;
+    width: 200vh;
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -34,10 +35,10 @@ header{
 }
 
 .container img {
-    width: 800px;
+    width: 100vh
 }
 
-.container{
+.containerr{
     display: flex;
     flex-direction: row;
 }
@@ -46,4 +47,51 @@ header{
     padding: 10px;
     color: #000;
     font-size: 25px;
+}
+
+.container {
+    
+    background-color: #4a6d7c;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.lox{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+}
+.stats {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.stat {
+    background-color: #2d3e46;
+    padding: 20px;
+    margin: 0 10px;
+    flex: 1;
+    border-radius: 10px;
+}
+.stat h2 {
+    font-size: 2em;
+    margin: 0;
+}
+.stat p {
+    margin: 10px 0 0;
+}
+.facilities {
+    margin-top: 30px;
+    display: block;
+    color: #b2d9e1;
+    text-decoration: none;
 }
